@@ -1,0 +1,98 @@
+
+nav{
+    width: 100%;
+    background-color: rgb(229, 231, 231);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 500;
+}
+#company_logo{
+
+    height: 1.5cm;
+    border-radius: 50%;
+}
+.contact_me_topic{
+    text-align: center;
+    font-family: arkitek;
+    margin-top: 50px;
+}
+
+.contact_me_box{
+
+}
+
+.contact_me{
+    height: 100vh;
+
+}
+
+.my_contact_boxes{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 80%;
+    background-color: transparent;
+
+}
+
+#connect_box_link{
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+}
+
+.connect_box{
+    background-color: rgb(229, 231, 231);
+    width: 100%;
+    padding: 10px;
+    box-shadow: 2px, 2px, 2px, rgb(10, 10, 10);
+    border-radius: 10px;
+}
+
+.fa-github, .fa-linkedin-in, .fa-envelope, .fa-phone, .fa-whatsapp{
+    font-size: 100px;
+}
+
+.connect_name{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.connect_description{
+    text-align: center;
+}
+@media screen and (max-width: 992px) {
+  .my_contact_boxes{
+	  grid-template-columns: 1fr 1fr;
+}}
+
+.parent_them{
+	display: flex;
+	justify-content: center;
+}
+
+#contact_me_box_scroll{
+
+	width: 100%;
+ 
+}
+
+footer{
+    margin-top: 20px;
+    height: 3cm;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(12, 12, 12);
+    color: rgb(201, 201, 201);
+
+}

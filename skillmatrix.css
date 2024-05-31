@@ -1,0 +1,105 @@
+
+nav{
+    width: 100%;
+    background-color: rgb(168, 23, 141);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 500;
+}
+#logop{
+    color: rgb(100, 31, 93);
+    font-size: 30px;
+    font-family: jumble;
+    font-weight: 900;
+}
+#company_logo{
+
+    height: 1.5cm;
+    border-radius: 50%;
+}
+
+.holder{
+    background-color: rgba(125, 0, 102, 0.9);
+    border-radius: 10px;
+    min-height: 2cm;
+    padding: 50px;
+    box-shadow: 2px 2px 3px 3px rgb(200, 200, 200);
+    color: rgb(255, 255, 255);
+
+}
+
+h1{
+  text-align: center;
+  text-shadow: -9px 7px 3px rgb(131, 131, 131);  
+  font-family: arkitek;
+  margin-bottom: 60px;
+  margin-top: 60px;
+
+}
+
+h2{
+    text-align: center; 
+    font-family: arkitek;
+    margin-bottom: 60px;
+  }
+
+  h5{
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+
+
+.beginer{
+    border-radius: 2px;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid black;
+    height: 0.4cm;
+    width: 3cm;
+    background-color: rgb(87, 57, 0);
+}
+
+.intermadiate{
+    border-radius: 2px;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid black;
+    height: 0.4cm;
+    width: 6cm;
+    background-color: rgb(87, 57, 0);
+}
+
+.advanced{
+    border-radius: 2px;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid black;
+    height: 0.4cm;
+    width: 9cm;
+    background-color: rgb(87, 57, 0);
+}
+
+.expert{
+    border-radius: 2px;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid black;
+    height: 0.4cm;
+    width: 12cm;
+    background-color: rgb(87, 57, 0);
+}
+
+footer{
+    margin-top: 20px;
+    height: 3cm;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(63, 5, 53);
+    color: rgb(201, 201, 201);
+
+}
